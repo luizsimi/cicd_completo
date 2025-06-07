@@ -1,7 +1,6 @@
 {
-  "name": "cicd_completo",
+  "name": "integracao_entrega_continua",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "node src/app.js",
@@ -12,9 +11,21 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.19.2"
+    "express": "^4.21.2"
   },
   "devDependencies": {
     "jest": "^29.7.0"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ovodomina/cicd_completo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ovodomina/cicd_completo/issues"
+  },
+  "homepage": "https://github.com/ovodomina/cicd_completo#readme",
+  "description": ""
 }
